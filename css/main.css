@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+}
+section {
+    margin-top: 75px;
+}
+section .container {
+    margin: auto;
+    padding: 50px;
+}
+section .container .content-box {
+    width: 450px;
+    height: 340px;
+    margin: 60px auto;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+.content-box > img {
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content-box .head {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.content-box .head > h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+    color: #3b74ba;
+}
+.content-box .head > p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c7c7c;
+}
+.content-box hr {
+    width: 85%;
+    margin: auto;
+    border: 1px solid #f6f6f6;
+}
+.content-box .content {
+    width: 85%;
+    margin: 20px auto;
+}
+.content-box .content .social {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 5px
+}
+.content-box .a-plus {
+    padding: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3b74ba;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+}
